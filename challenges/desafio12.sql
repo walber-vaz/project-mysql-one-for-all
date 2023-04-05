@@ -1,28 +1,3 @@
--- Crie uma QUERY que exibe um ranking de artistas baseado na quantidade de favoritadas em suas músicas.
-
--- O resultado deve possuir duas colunas:
-
--- artista: O nome da pessoa artista
-
--- ranking: Uma classificação definida pela quantidade de favoritadas as canções da pessoa artista receberam, como segue:
-
--- ranking	quantidade de favoritadas em canções
--- A	5 ou mais
--- B	3 - 4
--- C	1 - 2
--- -	0
-
--- Seu resultado deve estar ordenado em ordem decrescente, baseando-se no número de favoritadas. Em caso de empate, ordene os resultados pelo nome da pessoa artista em ordem alfabética.
-
--- Sua QUERY deve retornar a seguinte informação:
-
--- artista	ranking
--- Beyoncé	A
--- Elis Regina	B
--- Queen	B
--- Nina Simone	C
--- Baco Exu do Blues	-
--- Blind Guardian	-
 SELECT 
   SpotifyClone.artists.name AS artista,
   CASE
