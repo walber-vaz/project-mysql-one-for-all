@@ -32,6 +32,6 @@
   "dependencies": {
     "eslint-config-trybe-backend": "1.0.4",
     "mysql2": "2.3.3",
-    "sequelize": "6.21.3"
+    "sequelize": "6.29.0"
   }
 }
