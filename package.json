@@ -26,7 +26,7 @@
   "homepage": "https://github.com/betrybe/sd-0x-mysql-one-for-all#readme",
   "devDependencies": {
     "acorn": "5.7.4",
-    "jest": "24.9.0",
+    "jest": "29.5.0",
     "minimist": "1.2.2"
   },
   "dependencies": {
